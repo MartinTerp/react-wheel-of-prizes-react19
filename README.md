@@ -1,7 +1,7 @@
 # react-wheel-of-prizes
 
 > It is a wheel of prizes game build using reactjs
-> Originally by [shekharramola](https://github.com/shekharramola), this version has been adapted to allow React 17 and above
+> Originally by [shekharramola](https://github.com/shekharramola), this version has been adapted to allow React 19
 
 [![NPM](https://img.shields.io/npm/v/react-wheel-of-prizes.svg)](https://www.npmjs.com/package/react-wheel-of-prizes) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
@@ -12,9 +12,9 @@ npm install --save react-wheel-of-prizes-react19
 ```
 
 Before spinning, this is how it will look
-![before spinning](./before.png)
+![before spinning](https://github.com/khairyo/react-wheel-of-prizes/blob/681e8bd20c64c9066c5ab10dbcb4b300bcb5f50a/before.png)
 After spinning, this is how it will look
-![after spinning](./after.png)
+![after spinning](https://github.com/khairyo/react-wheel-of-prizes/blob/681e8bd20c64c9066c5ab10dbcb4b300bcb5f50a/after.png)
 
 This component package is fully configurable. you should pass your own array of segColors, array of segments. these are compulsory while winningSegment is optional. if it is not provided then it will be completely random. there is a callback function onFinished where you will get the winning segment.
 

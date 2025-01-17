@@ -1,10 +1,10 @@
 {
-  "name": "react-wheel-of-prizes",
-  "version": "1.0.9",
+  "name": "react-wheel-of-prizes-react19",
+  "version": "1.0.10",
   "description": "It is a wheel of prizes game build using reactjs",
-  "author": "shekharramola",
+  "author": "bana0615",
   "license": "GNU General Public License v3.0",
-  "repository": "shekharramola/react-wheel-of-prizes",
+  "repository": "bana0615/react-wheel-of-prizes-react19",
   "main": "dist/index.js",
   "module": "dist/index.modern.js",
   "source": "src/index.tsx",
@@ -24,7 +24,8 @@
     "deploy": "gh-pages -d example/build"
   },
   "peerDependencies": {
-    "react": "^16.0.0"
+    "react": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0",
+    "react-dom": "^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0"
   },
   "devDependencies": {
     "@types/react": "^17.0.2",

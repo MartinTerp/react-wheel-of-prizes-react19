@@ -1,13 +1,14 @@
 # react-wheel-of-prizes
 
 > It is a wheel of prizes game build using reactjs
+> Originally by [shekharramola](https://github.com/shekharramola), this version has been adapted to allow React 17 and above
 
 [![NPM](https://img.shields.io/npm/v/react-wheel-of-prizes.svg)](https://www.npmjs.com/package/react-wheel-of-prizes) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save react-wheel-of-prizes
+npm install --save react-wheel-of-prizes-react19
 ```
 
 Before spinning, this is how it will look
@@ -42,8 +43,8 @@ Wheel of fortune will run only once by default but if you want to run it more th
 ```jsx
 import React, { Component } from 'react'
 
-import WheelComponent from 'react-wheel-of-prizes'
-import 'react-wheel-of-prizes/dist/index.css'
+import WheelComponent from 'react-wheel-of-prizes-react19'
+import 'react-wheel-of-prizes-react19/dist/index.css'
 
 const App = () => {
   const segments = [

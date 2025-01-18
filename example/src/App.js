@@ -5,21 +5,16 @@ import './index.css'
 
 const App = () => {
   const segments = [
-    'better luck next time',
-    'won 70',
-    'won 10',
-    'better luck next time',
-    'won 2',
-    'won uber pass',
-    'better luck next time',
-    'won a voucher',
-    'won 70',
-    'won 10',
-    'better luck next time',
-    'won 2',
-    'won uber pass',
-    'better luck next time',
-    'won a voucher'
+    "Test 1",
+    "Test 2",
+    "Test 3",
+    "Test 4",
+    "Test 5",
+    "Test 6",
+    "Test 7",
+    "Test 8",
+    "Test 9",
+    "Test 10",
   ]
   const segColors = [
     '#EE4040',
@@ -39,22 +34,24 @@ const App = () => {
     '#FF9000'
   ]
   const onFinished = (winner) => {
-    console.log(winner)
+    console.log(winner);
   }
+  
   return (
     <React.Fragment>
       <WheelComponent
         segments={segments}
         segColors={segColors}
-        winningSegment={segments[3]}
+        winningSegment="Test 1"
         onFinished={(winner) => onFinished(winner)}
         primaryColor='black'
         contrastColor='white'
         buttonText='Spin'
-        isOnlyOnce={true}
+        isOnlyOnce={false}
         size={290}
-        upDuration={100}
+        upDuration={300}
         downDuration={1000}
+        randomWinningSegment={true}
       />
     </React.Fragment>
   )
